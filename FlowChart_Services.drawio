@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T11:17:48.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="b755VUe1lkYOBDa8C6Mr" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T11:18:09.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="c8SitNMRHD7NkTyWPbda" version="14.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
         <mxCell id="kq1nl4gFMCtAFIPx6vgy-33" value="File data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="570" y="439" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kq1nl4gFMCtAFIPx6vgy-34" value="&lt;h5&gt;Has Acknowledgement?&lt;br&gt;And&lt;br&gt;Message Type is 1 OR 2 Series?&lt;/h5&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="kq1nl4gFMCtAFIPx6vgy-34" value="&lt;h5&gt;Has Acknowledgement?&lt;br&gt;And&lt;br&gt;Message Type in 1 OR 2 Series?&lt;/h5&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="477.9" y="585" width="184.21" height="180" as="geometry" />
         </mxCell>
         <mxCell id="kq1nl4gFMCtAFIPx6vgy-35" value="Data" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kq1nl4gFMCtAFIPx6vgy-32" target="kq1nl4gFMCtAFIPx6vgy-34" edge="1">
