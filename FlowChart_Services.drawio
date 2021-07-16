@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T10:54:59.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="lKbAWJER5fFf2aVBxKED" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T10:56:15.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ME3E3jvhGm01y9z7zv3O" version="14.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,24 +272,21 @@
         <mxCell id="RdGOt6yGtJzuH_gNXcca-7" value="Channel 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="160" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RdGOt6yGtJzuH_gNXcca-12" value="OutPut Channel Details" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="900" y="249" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="RdGOt6yGtJzuH_gNXcca-14" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=1;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="570" y="298" as="sourcePoint" />
-            <mxPoint x="720" y="298" as="targetPoint" />
+            <mxPoint x="810" y="298" as="targetPoint" />
             <Array as="points">
               <mxPoint x="713" y="300" />
               <mxPoint x="713" y="298" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RdGOt6yGtJzuH_gNXcca-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=1;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RdGOt6yGtJzuH_gNXcca-12">
+        <mxCell id="RdGOt6yGtJzuH_gNXcca-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=1;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="790" y="350" as="sourcePoint" />
+            <mxPoint x="940" y="329" as="sourcePoint" />
             <mxPoint x="636.8800000000001" y="1020" as="targetPoint" />
             <Array as="points">
               <mxPoint x="940" y="1020" />
@@ -372,8 +369,8 @@
         <mxCell id="RdGOt6yGtJzuH_gNXcca-40" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Request ID&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="280" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RdGOt6yGtJzuH_gNXcca-41" value="Update Status of the Request to &quot;Started&quot;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="710" y="249" width="90" height="90" as="geometry" />
+        <mxCell id="RdGOt6yGtJzuH_gNXcca-41" value="Get Output Channel details for this request ID" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="249" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
