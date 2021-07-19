@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-07-19T14:29:47.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.9.0" etag="Y58zPLB08XYIHFp0aE38" type="github"><diagram id="1flvvURS3pIpoVD9U_9N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-19T14:41:17.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7S2OtYm148x5BWvCFUYt" version="14.9.0" type="github">
+  <diagram id="1flvvURS3pIpoVD9U_9N" name="Page-1">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-1" value="VU Applications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-2" value="SWIFT API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-3" value="PROWIDE API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-4" value="FILE SYSTEM&lt;br&gt;(API OUT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-5" value="SCHEDULER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-6" value="FILE SYSTEM&lt;br&gt;(ALLIANCE IN)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-7" value="ALLIANCE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-8" value="FILE SYSTEM&lt;br&gt;(ALLIANCE OUT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-10" value="FILE SYSTEM&lt;br&gt;(SWIFT PARSER IN)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-11" value="SWIFT SERVICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-12" value="RABBITMQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-13" value="FILE SYSTEM&lt;br&gt;(SWIFT PARSER OUT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="p3zePu-MyOKyYoAC-_YE-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="652" as="sourcePoint" />
+            <mxPoint x="510" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="p3zePu-MyOKyYoAC-_YE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="215" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="p3zePu-MyOKyYoAC-_YE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="670" as="sourcePoint" />
+            <mxPoint x="330" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3zePu-MyOKyYoAC-_YE-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.43;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p3zePu-MyOKyYoAC-_YE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="680" as="sourcePoint" />
+            <mxPoint x="450" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
