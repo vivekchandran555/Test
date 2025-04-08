@@ -1,0 +1,56 @@
+micro service,
+1. Do you follow any microservice design pattern? like saga, db per service, gateway, aggregator, circuit breaker, cqrs
+
+.net
+1. How do you authenticate or authorize web api?
+2. I have multiple screens with multiple roles and scopes, how do you handle performance?
+4. I have a system with limited licence at 10, I have multiple apps running in my org which requests data from that system, handle failure
+5. What are the ways you can register Services and its Lifetime in .net
+6. How to use scoped service from singleton service In worker service, you might have registered your hosted service or Background service , which is registered as singleton service lifetime
+- background service you override some execute methods and call your service for executing the background job
+- instead of injecting the job service, we inject the service provider, using that we create scope and scope service to handle job
+7. Do you follow any architectural design pattern?
+
+c#
+1. why do we need async await c#?
+Increase the performance and responsiveness of your application particularly when you have long-running operations that do not require to block the execution.
+2. Difference Between Ref and Out in C#?
+Ref bi-directional and Out is unidirectional
+3. Why do we use using block in c#?
+dispose and dispose pattern implemented in the variable in using block
+4. Can interface have default methods?
+yes and the methods can be Reabstraction
+5. try catch
+6. withdraw
+7. Task.WaitAll why do we use
+Task.WaitAll(task1, task2, task3);
+
+ef
+1. how to you load Related Entities in EF?
+by using include
+2. what is eagerly loading? 
+entity also loads related entities, achieved by use of the Include method and pass lamda to the property .Include(b => b.Posts)
+3. multiple levels eagerly loading? 
+same include with Lamda to the property with Select .Include(b => b.Posts.Select(p => p.Comments))
+4. Lazy Loading in EF?
+if we have a viritual collection property -> public virtual ICollection<Post> Posts { get; set; }
+5. How will you turn off lazy loading for serialization?
+make property non-virtual
+6. How will you Turn off lazy loading for all entities?
+in the context config set Configuration.LazyLoadingEnabled = false;
+7. Difference between lazy loading and eager loading?
+eger loading - Generailly when relations are not too much like User property of an Article. Category property of a Product
+lazy loading - Almost on every collection side like Articles of User or Products of a Category and you are not using related entities instantly.
+db context when disposed lazy loading could not take place, then eager loading is beneficial
+
+db
+1. can a table have multiple primary keys?
+no
+2. can a primary key include multiple column of a table?
+yes
+3. i have location information and i am querying the table with wildcard, how to improve performance?
+index db like elastic search or solr
+
+devops
+1. do you follow a specific branching strategy
+2. where do you organize common reusable components for your micro services
