@@ -1,0 +1,36 @@
+Home page
+Login Employee/Admin/User
+Project listing screen
+Sale graph
+Project details screen - Highlights, Amenities, Gallery, Videos, Plan, Price, Location
+Buy screen - Block listing, Block selection, Flat selection, Flat detail screen, Parking listing, Parking selection, Parking detail screen, Preview screen
+Payment screen - Payment mode, Payment confirmation
+
+User
+Profile screen
+Registration screen
+KYC screen - digilock aadar verification
+Aadhaar verification screen
+Query history screen
+Submit query screen
+Notification listing screen
+Notification detail screen
+Purchase history screen
+Documents screen
+Document upload screen
+Co-owner KYC
+Installment payment screen
+
+Employee
+Dashboard
+New project creation screen - Highlights, Amenities, Gallery, Videos, Plan, Price, Location
+Update existing project screen - Highlights, Amenities, Gallery, Videos, Plan, Price, Location
+Block creation/update
+Flore creation/update
+Pricing creation/update
+Booking status review screen project wise
+Flat detail and owner detail screen
+Cancel booking screen
+Refund screen
+Admin approval screen
+Payment installment creation screen
